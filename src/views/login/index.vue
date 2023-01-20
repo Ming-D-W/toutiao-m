@@ -1,7 +1,7 @@
 <template>
   <div class="login-container">
     <!-- 导航栏 -->
-    <van-nav-bar class="page-nav-bar" title="登录" />
+    <van-nav-bar class="page-nav-bar" title="登录"/>
     <!-- /导航栏 -->
 
     <!-- 登录表单 -->
@@ -37,13 +37,14 @@ export default {
   components: {},
   props: {},
   data () {
-    return {
-    }
+    return {}
   },
   computed: {},
   watch: {},
-  created () {},
-  mounted () {},
+  created () {
+  },
+  mounted () {
+  },
   methods: {
     onSubmit (values) {
       console.log('submit', values)
@@ -56,6 +57,7 @@ export default {
   .toutiao {
     font-size: 24px;
   }
+
   .send-sms-btn {
     width: 90px;
     height: 26px;
@@ -64,8 +66,10 @@ export default {
     font-size: 12px;
     color: #666;
   }
+
   .login-btn-wrap {
     padding: 53px 33px;
+
     .login-btn {
       background-color: #6db4fb;
       border: none;
